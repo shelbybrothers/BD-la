@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BANDAM - NFTs and Robots Marketplace</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.ico" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:wght@600;900&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo1.png" width="100" height="68" alt="NFTC Logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <p class="navbar-title">Menu</p>
+
+          <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+            <ion-icon name="close-circle-outline"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-navlink>Home 家庭</a>
+          </li>
+
+          <li>
+            <a href="#explore" class="navbar-link" data-navlink>NFTs Shop ショップ</a>
+          </li>
+
+        
+          <li>
+            <a href="#collection" class="navbar-link" data-navlink>Robo-Shop ロボットショップ</a>
+          </li>
+
+          <li>
+            <a href="#instruction" class="navbar-link" data-navlink>Highlights まとめ</a>
+          </li>
+
+          
+        </ul>
+
+      </nav>
+
+      <button class="menu-open-btn" aria-label="Open Menu" data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <a href="#" class="btn" aria-labelledby="wallet">
+        <ion-icon name="wallet-outline"></ion-icon>
+
+        <span id="wallet">Connect 接続する</span>
+      </a>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+
+        <div class="container">
+
+          <p class="section-subtitle">NFTキャンペーンやロボットの売買を通じてロボットコミュニティを構築</p>
+
+          <h2 class="h1 hero-title">NFT Campaigns & Robotics Marketplace</h2>
+
+          <p class="hero-text">
+                        NFTコミュニティ、ロボット愛好家、ロボット取引と暗号通貨決済を組み合わせます。          </p>
+
+          <div class="btn-group">
+
+            <button class="btn">
+              <ion-icon name="rocket-outline" aria-hidden="true"></ion-icon>
+
+              <span>Explore NFTs</span>
+            </button>
+
+            <button class="btn">
+              <ion-icon name="create-outline" aria-hidden="true"></ion-icon>
+
+              <span>Create Campaign</span>
+            </button>
+
+          </div>
+
+        </div>
+
+        <svg class="hero-bg-bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 465" version="1.1">
+          <defs>
+            <linearGradient x1="49.7965246%" y1="28.2355058%" x2="49.7778147%" y2="98.4657689%" id="linearGradient-1">
+              <stop stop-color="rgba(69,40,220, 0.15)" offset="0%"></stop>
+              <stop stop-color="rgba(87,4,138, 0.15)" offset="100%"></stop>
+            </linearGradient>
+          </defs>
+          <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <polygon points="" fill="url(#linearGradient-1)">
+              <animate id="graph-animation" xmlns="http://www.w3.org/2000/svg" dur="2s" repeatCount=""
+                attributeName="points"
+                values="0,464 0,464 111.6,464 282.5,464 457.4,464 613.4,464 762.3,464 912.3,464 1068.2,464 1191.2,464 1328.1,464 1440.1,464 1440.1,464 0,464; 0,464 0,367 111.6,323.3 282.5,373 457.4,423.8 613.4,464 762.3,464 912.3,464 1068.2,464 1191.2,464 1328.1,464 1440.1,464 1440.1,464 0,464; 0,464 0,367 111.6,263 282.5,336.6 457.4,363.5 613.4,414.4 762.3,464 912.3,464 1068.2,464 1191.2,464 1328.1,464 1440.1,464 1440.1,464 0,464; 0,464 0,367 111.6,263 282.5,282 457.4,323.3 613.4,340 762.3,425.6 912.3,464 1068.2,464 1191.2,464 1328.1,464 1440.1,464 1440.1,464 0,464; 0,464 0,367 111.6,263 282.5,282 457.4,263 613.4,290.4 762.3,368 912.3,446.4 1068.2,464 1191.2,464 1328.1,464 1440.1,464 1440.1,464 0,464; 0,464 0,367 111.6,263 282.5,282 457.4,263 613.4,216 762.3,329.6 912.3,420 1068.2,427.6 1191.2,464 1328.1,464 1440.1,464 1440.1,464 0,464; 0,464 0,367 111.6,263 282.5,282 457.4,263 613.4,216 762.3,272 912.3,402.4 1068.2,373 1191.2,412 1328.1,464 1440.1,464 1440.1,464 0,464; 0,464 0,367 111.6,263 282.5,282 457.4,263 613.4,216 762.3,272 912.3,376 1068.2,336.6 1191.2,334 1328.1,404 1440.1,464 1440.1,464 0,464; 0,464 0,367 111.6,263 282.5,282 457.4,263 613.4,216 762.3,272 912.3,376 1068.2,282 1191.2,282 1328.1,314 1440.1,372.8 1440.1,464 0,464; 0,464 0,367 111.6,263 282.5,282 457.4,263 613.4,216 762.3,272 912.3,376 1068.2,282 1191.2,204 1328.1,254 1440.1,236 1440.1,464 0,464; 0,464 0,367 111.6,263 282.5,282 457.4,263 613.4,216 762.3,272 912.3,376 1068.2,282 1191.2,204 1328.1,164 1440.1,144.79999999999998 1440.1,464 0,464; 0,464 0,367 111.6,263 282.5,282 457.4,263 613.4,216 762.3,272 912.3,376 1068.2,282 1191.2,204 1328.1,164 1440.1,8 1440.1,464 0,464;"
+                fill="freeze"></animate>
+            </polygon>
+          </g>
+        </svg>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #EXPLORE
+      -->
+
+      <section class="section explore" id="explore">
+        <div class="container">
+
+          <p class="section-subtitle">NFT の独占販売</p>
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">NFTs Shop</h2>
+
+            <a href="#" class="btn-link">
+              <span>Explore All</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="card explore-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/auction1.png" width="600" height="600" loading="lazy"
+                      alt="Walking On Air" class="img-cover">
+                  </a>
+                </figure>
+
+                <h3 class="h3 card-title">
+                  <a href="#">BANDAM KI87 #1269</a>
+                </h3>
+
+                <span class="card-author">
+                  Owned By <a href="#" class="author-link">RicK.Mort</a>
+                </span>
+
+                <div class="wrapper">
+                  <data class="wrapper-item" value="1.5">2.12 SOL</data>
+
+                  <span class="wrapper-item">1 of 1</span>
+                </div>
+
+                <button class="btn">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+
+                  <span>Place a Bid</span>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card explore-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/auction2.png" width="600" height="600" loading="lazy" alt="Domain Names"
+                      class="img-cover">
+                  </a>
+                </figure>
+
+                <h3 class="h3 card-title">
+                  <a href="#">BANDAM TG1 #8277</a>
+                </h3>
+
+                <span class="card-author">
+                  Owned By <a href="#" class="author-link">LeviRunner78</a>
+                </span>
+
+                <div class="wrapper">
+                  <data class="wrapper-item" value="2.7">0.21 SOL</data>
+
+                  <span class="wrapper-item">1 of 1</span>
+                </div>
+
+                <button class="btn">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+
+                  <span>Place a Bid</span>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card explore-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/auction3.png" width="600" height="600" loading="lazy" alt="Trading Cards"
+                      class="img-cover">
+                  </a>
+                </figure>
+
+                <h3 class="h3 card-title">
+                  <a href="#">BANDAM 43GB #021</a>
+                </h3>
+
+                <span class="card-author">
+                  Owned By <a href="#" class="author-link">MessiahCrypt</a>
+                </span>
+
+                <div class="wrapper">
+                  <data class="wrapper-item" value="2.3">2.3 SOL</data>
+
+                  <span class="wrapper-item">1 of 1</span>
+                </div>
+
+                <button class="btn">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+
+                  <span>Place a Bid</span>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card explore-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/auction4.png" width="600" height="600" loading="lazy"
+                      alt="Industrial Revolution" class="img-cover">
+                  </a>
+                </figure>
+
+                <h3 class="h3 card-title">
+                  <a href="#">BANDAM CP88 #8682</a>
+                </h3>
+
+                <span class="card-author">
+                  Owned By <a href="#" class="author-link">John.ETH</a>
+                </span>
+
+                <div class="wrapper">
+                  <data class="wrapper-item" value="1.8">1.28 SOL</data>
+
+                  <span class="wrapper-item">1 of 1</span>
+                </div>
+
+                <button class="btn">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+
+                  <span>Place a Bid</span>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card explore-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/auction5.png" width="600" height="600" loading="lazy" alt="Utility"
+                      class="img-cover">
+                  </a>
+                </figure>
+
+                <h3 class="h3 card-title">
+                  <a href="#">BANDAM UC51 #9128</a>
+                </h3>
+
+                <span class="card-author">
+                  Owned By <a href="#" class="author-link">LadySOL12</a>
+                </span>
+
+                <div class="wrapper">
+                  <data class="wrapper-item" value="1.7">0.34 SOL</data>
+
+                  <span class="wrapper-item">1 of 1</span>
+                </div>
+
+                <button class="btn">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+
+                  <span>Place a Bid</span>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card explore-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/auction6.png" width="600" height="600" loading="lazy" alt="Sports"
+                      class="img-cover">
+                  </a>
+                </figure>
+
+                <h3 class="h3 card-title">
+                  <a href="#">BANDAM BD23 #0019</a>
+                </h3>
+
+                <span class="card-author">
+                  Owned By <a href="#" class="author-link">ArtNox90</a>
+                </span>
+
+                <div class="wrapper">
+                  <data class="wrapper-item" value="1.7">0.65 SOL</data>
+
+                  <span class="wrapper-item">1 of 87</span>
+                </div>
+
+                <button class="btn">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+
+                  <span>Place a Bid</span>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card explore-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/auction7.png" width="600" height="600" loading="lazy"
+                      alt="Cartoon Heroes" class="img-cover">
+                  </a>
+                </figure>
+
+                <h3 class="h3 card-title">
+                  <a href="#">BANDAM HC91 #0126</a>
+                </h3>
+
+                <span class="card-author">
+                  Owned By <a href="#" class="author-link">king.bnb311</a>
+                </span>
+
+                <div class="wrapper">
+                  <data class="wrapper-item" value="3.2">1.21 SOL</data>
+
+                  <span class="wrapper-item">1 of 13</span>
+                </div>
+
+                <button class="btn">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+
+                  <span>Place a Bid</span>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card explore-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/auction8.png" width="600" height="600" loading="lazy" alt="Gaming Chair"
+                      class="img-cover">
+                  </a>
+                </figure>
+
+                <h3 class="h3 card-title">
+                  <a href="#">BANDAM HV03 #3111</a>
+                </h3>
+
+                <span class="card-author">
+                  Owned By <a href="#" class="author-link">big_shiller</a>
+                </span>
+
+                <div class="wrapper">
+                  <data class="wrapper-item" value="0.69">0.69 SOL</data>
+
+                  <span class="wrapper-item">1 of 8</span>
+                </div>
+
+                <button class="btn">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+
+                  <span>Place a Bid</span>
+                </button>
+
+              </div>
+            </li>
+
+            
+
+          
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TOP SELLER
+      -->
+
+      <section class="section top-seller" id="top-seller">
+        <div class="container">
+
+          <p class="section-subtitle">クリエイティブアーティスト</p>
+
+          <h2 class="h2 section-title">Top Artists</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="card top-seller-card">
+
+                <figure class="card-avatar">
+                  <a href="#">
+                    <img src="./assets/images/avatar3.png" width="64" height="64" loading="lazy" alt="Richard">
+                  </a>
+                </figure>
+
+                <div>
+                  <h3 class="card-title">
+                    <a href="#">@bulb.boob</a>
+                  </h3>
+
+                  <data value="1.5">32.12 SOL</data>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card top-seller-card">
+
+                <figure class="card-avatar">
+                  <a href="#">
+                    <img src="./assets/images/avatar8.jpeg" width="64" height="64" loading="lazy" alt="John Deo">
+                  </a>
+                </figure>
+
+                <div>
+                  <h3 class="card-title">
+                    <a href="#">@drunk.levi</a>
+                  </h3>
+
+                  <data value="2.3">12.33 SOL</data>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card top-seller-card">
+
+                <figure class="card-avatar">
+                  <a href="#">
+                    <img src="./assets/images/avatar7.png" width="64" height="64" loading="lazy" alt="Junaid">
+                  </a>
+                </figure>
+
+                <div>
+                  <h3 class="card-title">
+                    <a href="#">@galeeyon</a>
+                  </h3>
+
+                  <data value="2.5">13.49 SOL</data>
+                </div>
+
+              </div>
+            </li>
+
+            
+           
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #COLLECTION
+      -->
+
+      <section class="section collection" id="collection">
+        <div class="container">
+
+          <p class="section-subtitle">ロボグッズ販売</p>
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Robo-Shop</h2>
+
+            <a href="#" class="btn-link">
+              <span>View All</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <a href="#" class="card collection-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/authorbanner1.jpg" width="600" height="450" loading="lazy"
+                    alt="Virtual Worlds" class="img-cover">
+                </figure>
+
+                <figure class="card-avatar">
+                  <img src="./assets/images/avatar1.jpg" width="64" height="64" loading="lazy" alt="card avatar">
+                </figure>
+
+                <h3 class="h3 card-title">NS-076E 2015 組み立て</h3>
+
+                <span class="card-text">@Geery.eth | 0.87 SOL</span>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="card collection-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/authorbanner2.jpg" width="600" height="450" loading="lazy"
+                    alt="Digital Arts" class="img-cover">
+                </figure>
+
+                <figure class="card-avatar">
+                  <img src="./assets/images/avatar2.png" width="64" height="64" loading="lazy" alt="card avatar">
+                </figure>
+
+                <h3 class="h3 card-title">Grecko TB-931 組み立て</h3>
+
+                <span class="card-text">@downy.311 | 0.34 SOL</span>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="card collection-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/authorbanner3.jpg" width="600" height="450" loading="lazy" alt="Sports"
+                    class="img-cover">
+                </figure>
+
+                <figure class="card-avatar">
+                  <img src="./assets/images/avatar3.png" width="64" height="64" loading="lazy" alt="card avatar">
+                </figure>
+
+                <h3 class="h3 card-title">Gr Triaxial 3 inch 装備</h3>
+
+                <span class="card-text">@bulb.boob | 0.55 SOL</span>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="card collection-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/authorbanner4.jpg" width="600" height="450" loading="lazy"
+                    alt="Photography" class="img-cover">
+                </figure>
+
+                <figure class="card-avatar">
+                  <img src="./assets/images/avatar4.jpg" width="64" height="64" loading="lazy" alt="card avatar">
+                </figure>
+
+                <h3 class="h3 card-title">25mL long mch 機械</h3>
+
+                <span class="card-text">@king.bnb311 | 0.745 SOL</span>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="card collection-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/authorbanner5.jpg" width="600" height="450" loading="lazy"
+                    alt="Collectibles" class="img-cover">
+                </figure>
+
+                <figure class="card-avatar">
+                  <img src="./assets/images/avatar5.png" width="64" height="64" loading="lazy" alt="card avatar">
+                </figure>
+
+                <h3 class="h3 card-title">EP 31 Tank Limited 限定</h3>
+
+                <span class="card-text">@vitaluck9 | 1.12 SOL</span>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="card collection-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/authorbanner6.jpg" width="600" height="450" loading="lazy"
+                    alt="Trading Cards" class="img-cover">
+                </figure>
+
+                <figure class="card-avatar">
+                  <img src="./assets/images/avatar-6.jpg" width="64" height="64" loading="lazy" alt="card avatar">
+                </figure>
+
+                <h3 class="h3 card-title">Fence handle 3mm</h3>
+
+                <span class="card-text">@robohudo | 0.21 SOL</span>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="card collection-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/authorbanner7.jpg" width="600" height="450" loading="lazy"
+                    alt="Walking On Air" class="img-cover">
+                </figure>
+
+                <figure class="card-avatar">
+                  <img src="./assets/images/avatar7.png" width="64" height="64" loading="lazy" alt="card avatar">
+                </figure>
+
+                <h3 class="h3 card-title">Orsheet 5ply ステッカー</h3>
+
+                <span class="card-text">@galeeyon | 0.08 SOL</span>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="card collection-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/authorbanner8.jpg" width="600" height="450" loading="lazy"
+                    alt="Domain Names" class="img-cover">
+                </figure>
+
+                <figure class="card-avatar">
+                  <img src="./assets/images/avatar8.jpeg" width="64" height="64" loading="lazy" alt="card avatar">
+                </figure>
+
+                <h3 class="h3 card-title">Motoric ER-31R 地元</h3>
+
+                <span class="card-text">@drunk.levi | 0.08 SOL</span>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #INSTRUCTION
+      -->
+
+      <section class="section instruction" id="instruction">
+        <div class="container">
+
+          <p class="section-subtitle">まとめポイント</p>
+
+          <h2 class="h2 section-title">Highlights</h2>
+
+          <ul class="grid-list">
+
+            <li class="instruction-item">
+
+              <div class="instruction-icon">
+                <ion-icon name="wallet-outline"></ion-icon>
+              </div>
+
+              <h3 class="instruction-title">統合 Integration </h3>
+
+              <p class="instruction-text">
+                Download Solana wallet, integrate with Web3 from BANDAM. Solana ウォレットをダウンロードし、BANDAM から Web3 と統合します。
+              </p>
+
+            </li>
+
+            <li class="instruction-item">
+
+              <div class="instruction-icon">
+                <ion-icon name="grid-outline"></ion-icon>
+              </div>
+
+              <h3 class="instruction-title">コレクション管理 Collections </h3>
+
+              <p class="instruction-text">
+                Create an NFT collection or import it, and organize airdrop distribution. NFTコレクションをプラットフォームにインポートする
+              </p>
+
+            </li>
+
+            <li class="instruction-item">
+
+              <div class="instruction-icon">
+                <ion-icon name="file-tray-outline"></ion-icon>
+              </div>
+
+              <h3 class="instruction-title">Shop ロボット取引</h3>
+
+              <p class="instruction-text">
+                Collect items from the forum, transactions are carried out digitally on Solana. フォーラムからアイテムを収集し、トランザクションは SOlana 上でデジタル的に実行されます。
+              </p>
+
+            </li>
+
+            <li class="instruction-item">
+
+              <div class="instruction-icon">
+                <ion-icon name="bag-handle-outline"></ion-icon>
+              </div>
+
+              <h3 class="instruction-title">List for sale リスト</h3>
+
+              <p class="instruction-text">
+                Share benefits with the community. Expand exposure and volume. コミュニティとメリットを共有しましょう。 露出とボリュームを拡大します。
+              </p>
+
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo1.png" width="68" height="48" alt="NFTC Logo">
+          </a>
+
+          <p class="footer-text">
+            BANDAM は、2023 年にトロンとソラナの研究参加者のグループによって構築されました。BANDAM was built by a group of Tron and Solana research participants in 2023.
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="https://bandam.medium.com" class="social-link">
+                <ion-icon name="logo-medium"></ion-icon>
+                <ion-icon name="logo-medium"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://x.com/bandam_sol" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://t.me/bandam_sol" class="social-link">
+                <ion-icon name="logo-tumblr"></ion-icon>
+                <ion-icon name="logo-tumblr"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-discord"></ion-icon>
+                <ion-icon name="logo-discord"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Useful Links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">All NFTs</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">How It Works</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Create</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Explore</a>
+          </li>
+
+          
+        </ul>
+
+        <ul class="footer-list">
+
+          
+
+         
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="footer-list-title">Subscribe Us</p>
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email" placeholder="info@yourmail.com" required class="newsletter-input">
+
+            <button type="submit" class="newsletter-btn" aria-label="Submit">
+              <ion-icon name="paper-plane-outline"></ion-icon>
+            </button>
+          </form>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; 2024 <a href="#" class="copyright-link">BANDAM Community</a>. All Rights Reserved
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-to-top" aria-label="Back to Top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
